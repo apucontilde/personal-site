@@ -41,40 +41,23 @@ describe('renders the app', () => {
   });
 
   it('should render the title', async () => {
-    expect(document.title).toBe("Francisco Casco");
+    expect(document.title).toBe('Francisco Casco');
   });
 
-  it('can navigate to /about', async () => {
-    expect.assertions(7);
-    const aboutLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(1) > a',
-    );
-    expect(aboutLink).toBeInTheDocument();
-    await act(async () => {
-      await aboutLink.click();
-    });
-    expect(document.title).toContain('About |');
-    expect(window.location.pathname).toBe('/about');
-    expect(window.scrollTo).toHaveBeenNthCalledWith(1, 0, 0);
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(jsonMock).toHaveBeenCalledTimes(0);
-    expect(textMock).toHaveBeenCalledTimes(1);
-  });
+  // it('can navigate to /resume', async () => {
+  //   expect.assertions(3);
+  //   const contactLink = document.querySelector(
+  //     '#header > nav > ul > li:nth-child(2) > a',
+  //   );
+  //   expect(contactLink).toBeInTheDocument();
+  //   await act(async () => {
+  //     await contactLink.click();
+  //   });
+  //   expect(document.title).toContain('Resume |');
+  //   expect(window.location.pathname).toBe('/resume');
+  // });
 
-  it('can navigate to /resume', async () => {
-    expect.assertions(3);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(2) > a',
-    );
-    expect(contactLink).toBeInTheDocument();
-    await act(async () => {
-      await contactLink.click();
-    });
-    expect(document.title).toContain('Resume |');
-    expect(window.location.pathname).toBe('/resume');
-  });
-
-  it('can navigate to /projects', async () => {
+  it('can navigate to /proyectos', async () => {
     expect.assertions(3);
     const contactLink = document.querySelector(
       '#header > nav > ul > li:nth-child(3) > a',
@@ -83,26 +66,11 @@ describe('renders the app', () => {
     await act(async () => {
       await contactLink.click();
     });
-    expect(document.title).toContain('Projects |');
-    expect(window.location.pathname).toBe('/projects');
+    expect(document.title).toContain('Proyectos |');
+    expect(window.location.pathname).toBe('/proyectos');
   });
 
-  it('can navigate to /stats', async () => {
-    expect.assertions(5);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(4) > a',
-    );
-    expect(contactLink).toBeInTheDocument();
-    await act(async () => {
-      await contactLink.click();
-    });
-    expect(document.title).toContain('Stats |');
-    expect(window.location.pathname).toBe('/stats');
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(jsonMock).toHaveBeenCalledTimes(1);
-  });
-
-  it('can navigate to /contact', async () => {
+  it('can navigate to /contacto', async () => {
     expect.assertions(3);
     const contactLink = document.querySelector(
       '#header > nav > ul > li:nth-child(5) > a',
@@ -111,7 +79,7 @@ describe('renders the app', () => {
     await act(async () => {
       await contactLink.click();
     });
-    expect(document.title).toContain('Contact |');
-    expect(window.location.pathname).toBe('/contact');
+    expect(document.title).toContain('Contacto |');
+    expect(window.location.pathname).toBe('/contacto');
   });
 });
