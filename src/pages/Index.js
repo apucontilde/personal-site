@@ -4,36 +4,37 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 const Index = () => (
-  <Main
-    description={
-      "Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
-    }
-  >
+  <Main description="Sitio Web personal de Francisco Casco, cantante, actor, showcaster, presentador y estrímer">
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2>
-            <Link to="/">About this site</Link>
+            <Link to="/">Sobre mí</Link>
           </h2>
           <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
+            Sit consectetur tempor aliqua culpa aliqua mollit consectetur
+            veniam. Nisi anim eu elit dolore laborum nostrud. Reprehenderit
+            commodo nostrud sunt elit aliquip consectetur. Laborum do veniam
+            exercitation quis cillum laborum exercitation tempor irure.
+          </p>
+          <p>
+            Sit consectetur tempor aliqua culpa aliqua mollit consectetur
+            veniam. Nisi anim eu elit dolore laborum nostrud. Reprehenderit
+            commodo nostrud sunt elit aliquip consectetur. Laborum do veniam
+            exercitation quis cillum laborum exercitation tempor irure.
           </p>
         </div>
       </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        view <Link to="/stats">site statistics</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
+        Bienvenide a mi sitio.
+
       </p>
       <p>
         {' '}
-        Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
+        Aquí podés conocer más acerca de mis {' '}
+        <Link to="/proyectos">proyectos</Link>, y mi información de {' '}
+        <Link to="/contacto">contacto</Link>.
       </p>
     </article>
   </Main>
