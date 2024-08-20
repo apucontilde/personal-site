@@ -9,7 +9,7 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">Sobre mí</Link>
+            <Link to="/">       Hola, soy Francisco Casco, bienvenide a mi sitio :D          </Link>
           </h2>
           <p>
             Sit consectetur tempor aliqua culpa aliqua mollit consectetur
@@ -25,11 +25,6 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <p>
-        {' '}
-        Bienvenide a mi sitio.
-
-      </p>
       <p>
         {' '}
         Aquí podés conocer más acerca de mis {' '}
