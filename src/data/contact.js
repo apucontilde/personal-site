@@ -15,7 +15,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://www.facebook.com/LordCasquito',
+    link: 'https://www.facebook.com/CascoCanta',
     label: 'Facebook',
     icon: faFacebookF,
   },
