@@ -43,7 +43,7 @@ jobs:
           node-version-file: ".nvmrc"
           cache: "pnpm"
       - name: Install
-        run: pnpm i
+        run: pnpm install
       - name: Build and Render
         shell: bash
         run: |
