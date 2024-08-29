@@ -7,14 +7,14 @@ import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 
 const Projects = () => (
-  <Main title="Proyectos" description="Informacion acerca de los proyectos de Francisco Casco">
-    <article className="post" id="proyectos">
+  <Main title="Projects" description="Information about Francisco Casco's projects">
+    <article className="post" id="projects">
       <header>
         <div className="title">
           <h2>
-            <Link to="/proyectos">Proyectos</Link>
+            <Link to="/projects">Projects</Link>
           </h2>
-          <p>Una seleccion de los proyectos en los que he sido parte: </p>
+          <p>A selection of projects I am proud to share: </p>
         </div>
       </header>
       {data.map((project) => (

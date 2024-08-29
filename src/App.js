@@ -12,6 +12,8 @@ const { PUBLIC_URL } = process.env;
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
+const Contact = lazy(() => import('./pages/Contact'));
+
 // const Resume = lazy(() => import('./pages/Resume'));
 
 const App = () => (
@@ -19,7 +21,8 @@ const App = () => (
     <Suspense fallback={<Main />}>
       <Routes>
         <Route path="/" element={<Index />} />
-        <Route path="/proyectos" element={<Projects />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
         {/* <Route path="/resume" element={<Resume />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>

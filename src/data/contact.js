@@ -1,26 +1,26 @@
-// import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
+import { faTwitch } from '@fortawesome/free-brands-svg-icons/faTwitch';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
-// import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
-// import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
 
 const data = [
-  // {
-  //   link: 'https://github.com/mldangelo',
-  //   label: 'Github',
-  //   icon: faGithub,
-  // },
   {
-    link: 'https://facebook.com/franciscocasco',
+    link: 'https://github.com/fc45c0',
+    label: 'Github',
+    icon: faGithub,
+  },
+  {
+    link: 'https://www.facebook.com/LordCasquito',
     label: 'Facebook',
     icon: faFacebookF,
   },
   {
-    link: 'https://www.instagram.com/c45c0/',
+    link: 'https://www.instagram.com/not_real_c45c0/',
     label: 'Instagram',
     icon: faInstagram,
   },
@@ -29,16 +29,16 @@ const data = [
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
-  // {
-  //   link: 'https://angel.co/michael-d-angelo',
-  //   label: 'Angel List',
-  //   icon: faAngellist,
-  // },
-  // {
-  //   link: 'https://twitter.com/dangelosaurus',
-  //   label: 'Twitter',
-  //   icon: faTwitter,
-  // },
+  {
+    link: 'https://www.youtube.com/@Cascocanta',
+    label: 'Youtube',
+    icon: faYoutube,
+  },
+  {
+    link: 'https://www.twitch.tv/c45c0',
+    label: 'Twitch',
+    icon: faTwitch,
+  },
   {
     link: 'mailto:cascoosu@gmail.com',
     label: 'Email',

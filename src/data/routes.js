@@ -13,16 +13,16 @@ const routes = [
   //   path: '/resume',
   // },
   {
-    label: 'Proyectos',
-    path: '/proyectos',
+    label: 'Projects',
+    path: '/projects',
   },
   // {
   //   label: 'Stats',
   //   path: '/stats',
   // },
   {
-    label: 'Contacto',
-    path: '/contacto',
+    label: 'Contact',
+    path: '/contact',
   },
 ];
 

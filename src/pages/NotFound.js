@@ -11,9 +11,9 @@ const PageNotFound = () => (
           content="The content you are looking for cannot be found."
         />
       </Helmet>
-      <h1>Page Not Found</h1>
+      <h1>¡OOPS! esta página no existe</h1>
       <p>
-        Return <Link to="/">home</Link>.
+        <Link to="/">Volver al inicio</Link>.
       </p>
     </div>
   </HelmetProvider>

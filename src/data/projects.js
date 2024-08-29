@@ -4,6 +4,7 @@ const data = [
     title: 'Cat ',
     subtitle: 'cat cat cat cat kitty cat cat cat cat cat cat cat kitty cat cat cat cat cat cat cat kitty cat cat cat',
     image: '/images/projects/catdetector.jpg',
+    link: '',
     date: '2015-05-15',
     desc:
       'cat cat cat cat kitty cat cat catcat cat cat cat kitty cat cat catcat cat cat cat kitty cat cat cat'

@@ -9,7 +9,7 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">       Hola, soy Francisco Casco, bienvenide a mi sitio :D          </Link>
+            <Link to="/">       Hi, soy Francisco Casco, bienvenide a mi sitio :D          </Link>
           </h2>
           <p>
             Sit consectetur tempor aliqua culpa aliqua mollit consectetur
@@ -28,8 +28,8 @@ const Index = () => (
       <p>
         {' '}
         Aquí podés conocer más acerca de mis {' '}
-        <Link to="/proyectos">proyectos</Link>, y mi información de {' '}
-        <Link to="/contacto">contacto</Link>.
+        <Link to="/projects">projects</Link>, y mi información de {' '}
+        <Link to="/contact">contact</Link>.
       </p>
     </article>
   </Main>
