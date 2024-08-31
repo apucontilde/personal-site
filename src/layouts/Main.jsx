@@ -2,14 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
 import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
-const Main = (props) => (
+const Main = (props) => {
+  return(
   <HelmetProvider>
-    <Analytics />
     <ScrollToTop />
     <Helmet
       titleTemplate="%s | Francisco Casco"
@@ -25,7 +24,7 @@ const Main = (props) => (
       {props.fullPage ? null : <SideBar />}
     </div>
   </HelmetProvider>
-);
+)};
 
 Main.propTypes = {
   children: PropTypes.oneOfType([
@@ -37,11 +36,6 @@ Main.propTypes = {
   description: PropTypes.string,
 };
 
-Main.defaultProps = {
-  children: null,
-  fullPage: false,
-  title: null,
-  description: "Francisco Casco's personal website.",
-};
+
 
 export default Main;
