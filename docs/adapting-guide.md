@@ -33,7 +33,7 @@ I recommend keeping the project running as you go (with `npm start`) to help cor
 1. Modify the files in `src/data/resume/` next.
 1. Modify all of the other files in the `src/data/` directory.
 1. You've finished modifying >95% of the pages. Search through the rest of the files for references to `Michael` or `Angelo` and change values to your name.
-1. Change or remove the favicon in `public/index.html`. [This](https://realfavicongenerator.net/) website may be helpful.
+1. Change or remove the favicon in `index.html`. [This](https://realfavicongenerator.net/) website may be helpful.
 
 ### Deploy
 
